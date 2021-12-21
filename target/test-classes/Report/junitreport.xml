@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="37.906997">
+<testcase classname="Validation of OrderId in AdactIn hotel Web Application" name="TA01_Validation of OrderID in Booking Confirmation Page with valid inputs" time="22.695304">
+<system-out><![CDATA[Given User launch AdactIn Hotel Web Application.............................passed
+Then User verify whether login page is displayed............................passed
+When User enters valid username and valid password..........................passed
+And User clicks on Login Button.............................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User enters valid location,valid hotels,valid roomtype, valid numberofrooms,valid checkindate,valid checkoutdate, valid adultsperroom,valid childperroom.passed
+And User clicks on Search Button............................................passed
+Then User verify Select Hotel page is displayed.............................passed
+And User clicks on select radio Button......................................passed
+And User clicks on Continue Button..........................................passed
+Then User verify Book Hotel Page is displayed...............................passed
+When User enters valid firstname, valid lastname, valid creditcardnumber, valid creditcardtype, valid expirymonth,valid expiryyear, valid cvvnumber.passed
+And User clicks on Book now Button..........................................passed
+Then User verify Booking order page is displayed and  OrderId is validated..passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of OrderId in AdactIn hotel Web Application" name="TA02_Validation of OrderID in Booking Confirmation Page with valid inputs" time="15.211693">
+<system-out><![CDATA[Given User launch AdactIn Hotel Web Application.............................passed
+Then User verify whether login page is displayed............................passed
+When User enters "aswinprabu9444","aswinprabu9444"..........................passed
+And User clicks on Login Button.............................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User enters valid "Adelaide","Hotel Cornice","Super Deluxe","2 - Two","18/12/2021","19/12/2021","4 - Four","3 - Three".passed
+And User clicks on Search Button............................................passed
+Then User verify Select Hotel page is displayed.............................passed
+And User clicks on select radio Button......................................passed
+And User clicks on Continue button..........................................passed
+Then User verify Book Hotel Page is displayed...............................passed
+When User enters "Karan","Haridoss","Vellore","1234567890123456","Master Card","1","2022","444".passed
+And User clicks on Book now Button..........................................passed
+Then User verify Booking order page is displayed and  OrderId is validated..passed
+]]></system-out>
+</testcase>
+</testsuite>
