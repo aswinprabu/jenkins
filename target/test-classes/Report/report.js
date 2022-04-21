@@ -10,7 +10,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User launch AdactIn Hotel Web Application",
@@ -20,7 +20,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_AdactIn_Hotel_Web_Application()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "TA01_Validation of OrderID in Booking Confirmation Page with valid inputs",
@@ -35,7 +35,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_whether_login_page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters valid username and valid password",
@@ -45,7 +45,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_valid_username_and_valid_password()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Login Button",
@@ -55,7 +55,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Login_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Search Hotel Page is displayed",
@@ -65,7 +65,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Search_Hotel_Page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters valid location,valid hotels,valid roomtype, valid numberofrooms,valid checkindate,valid checkoutdate, valid adultsperroom,valid childperroom",
@@ -75,7 +75,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_valid_location_valid_hotels_valid_roomtype_valid_numberofrooms_valid_checkindate_valid_checkoutdate_valid_adultsperroom_valid_childperroom()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Search Button",
@@ -85,7 +85,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Search_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Select Hotel page is displayed",
@@ -95,7 +95,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on select radio Button",
@@ -105,7 +105,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_select_radio_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Continue Button",
@@ -115,7 +115,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Continue_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Book Hotel Page is displayed",
@@ -125,7 +125,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Book_Hotel_Page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters valid firstname, valid lastname, valid creditcardnumber, valid creditcardtype, valid expirymonth,valid expiryyear, valid cvvnumber",
@@ -135,7 +135,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_valid_firstname_valid_lastname_valid_creditcardnumber_valid_creditcardtype_valid_expirymonth_valid_expiryyear_valid_cvvnumber()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Book now Button",
@@ -145,7 +145,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Book_now_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Booking order page is displayed and  OrderId is validated",
@@ -155,10 +155,10 @@ formatter.match({
   "location": "StepDefinition.user_verify_Booking_order_page_is_displayed_and_OrderId_is_validated()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenarioOutline({
   "name": "TA02_Validation of OrderID in Booking Confirmation Page with valid inputs",
@@ -274,7 +274,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User launch AdactIn Hotel Web Application",
@@ -284,7 +284,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_AdactIn_Hotel_Web_Application()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "TA02_Validation of OrderID in Booking Confirmation Page with valid inputs",
@@ -299,7 +299,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_whether_login_page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters \"aswinprabu9444\",\"aswinprabu9444\"",
@@ -309,7 +309,7 @@ formatter.match({
   "location": "StepDefinition.user_enters(String,String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Login Button",
@@ -319,7 +319,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Login_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Search Hotel Page is displayed",
@@ -329,7 +329,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Search_Hotel_Page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters valid \"Adelaide\",\"Hotel Cornice\",\"Super Deluxe\",\"2 - Two\",\"18/12/2021\",\"19/12/2021\",\"4 - Four\",\"3 - Three\"",
@@ -339,7 +339,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_valid(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Search Button",
@@ -349,7 +349,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Search_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Select Hotel page is displayed",
@@ -359,7 +359,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on select radio Button",
@@ -369,7 +369,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_select_radio_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Continue button",
@@ -379,7 +379,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Continue_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Book Hotel Page is displayed",
@@ -389,7 +389,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_Book_Hotel_Page_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User enters \"Karan\",\"Haridoss\",\"Vellore\",\"1234567890123456\",\"Master Card\",\"1\",\"2022\",\"444\"",
@@ -399,7 +399,7 @@ formatter.match({
   "location": "StepDefinition.user_enters(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Book now Button",
@@ -409,7 +409,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on_Book_now_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User verify Booking order page is displayed and  OrderId is validated",
@@ -419,9 +419,9 @@ formatter.match({
   "location": "StepDefinition.user_verify_Booking_order_page_is_displayed_and_OrderId_is_validated()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });

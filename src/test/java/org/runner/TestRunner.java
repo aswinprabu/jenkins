@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class) 
-@CucumberOptions(features="src\\test\\resources\\Features", glue="org.step",dryRun=false,
+@CucumberOptions(features="src\\test\\resources\\Features", glue="org.step",dryRun=true,
 plugin= {"pretty","html:src\\test\\resources\\Report",
 		"junit:src\\test\\resources\\Report\\junitreport.xml",
 		"json:src\\test\\resources\\Report\\adactin.json"},monochrome = true)
